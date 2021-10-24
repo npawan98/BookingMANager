@@ -1,13 +1,27 @@
 
 import './App.css';
+import SideNav from './components/sideNavBar/sideNav';
+import TopNav from './components/topNavBar/topNav';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-     Booking Manager
-     <div className="testDiv">This is a test Div</div>
+class App extends Component{
+  render(){
+    return(
+      <div className="App">
+      <div className = "topNav">
+        <TopNav />
+      </div>
+      <div className = "body">
+      <div className = "sideNav">
+        <SideNav />
+      </div>
+      <div className="mainContent">
+       body
+      </div>
+      </div>
     </div>
-  );
+    );
+  };
 }
 
 export default App;
