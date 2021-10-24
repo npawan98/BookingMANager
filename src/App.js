@@ -17,6 +17,9 @@ class App extends Component{
       </div>
       <div className="mainContent">
       <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">Secondary</button>
+      <button type="button" class="btn btn-primary">Tertiary</button>
+      <button type="button" class="btn btn-primary">Close</button>
       </div>
       </div>
     </div>
