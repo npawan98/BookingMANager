@@ -17,11 +17,11 @@ class topNav extends Component{
                             <a className="nav-link active" aria-current="page" href="www.google.com">Home</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="www.google.com">Link</a>
+                            <a className="nav-link" href="www.google.com">About us</a>
                             </li>
                             <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="www.google.com" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                               FAQ's
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a className="dropdown-item" href="www.google.com">Action</a></li>
@@ -29,9 +29,6 @@ class topNav extends Component{
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="www.google.com">Something else here</a></li>
                             </ul>
-                            </li>
-                            <li className="nav-item">
-                            <a className="nav-link disabled" href="www.google.com">Disabled</a>
                             </li>
                         </ul>
                         <form className="d-flex">
